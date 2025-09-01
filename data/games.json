@@ -1,0 +1,31 @@
+{
+    "siteTitle": "Kids Gaming Universe",
+    "tagline": "Endless fun and adventure!",
+    "countdownTarget": "2025-12-31T23:59:59",
+    "games": [
+        {
+            "id": 1,
+            "name": "Space Explorer",
+            "description": "Journey through the stars and discover new planets.",
+            "thumb": "assets/images/space-explorer.png",
+            "difficulty": "easy",
+            "url": "#"
+        },
+        {
+            "id": 2,
+            "name": "Jungle Run",
+            "description": "Dodge obstacles and collect treasures in the wild jungle.",
+            "thumb": "assets/images/jungle-run.png",
+            "difficulty": "medium",
+            "url": "#"
+        },
+        {
+            "id": 3,
+            "name": "Puzzle Masters",
+            "description": "Challenge your mind with intricate puzzles.",
+            "thumb": "assets/images/puzzle-masters.png",
+            "difficulty": "hard",
+            "url": "#"
+        }
+    ]
+}

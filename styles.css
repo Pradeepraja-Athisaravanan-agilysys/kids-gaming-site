@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #3498db;
+    --accent-color: #f1c40f;
+    --bg-color: #ecf0f1;
+    --text-color: #2c3e50;
+    --font-family: 'Nunito', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#logo {
+    max-width: 150px;
+}
+
+#games-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.game-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.game-card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+#countdown {
+    padding: 2rem;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+/* TODO: student exercise - Add focus states and other styles */
+.game-card:focus, .game-card:hover {
+    outline: 2px solid var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
